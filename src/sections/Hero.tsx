@@ -49,19 +49,19 @@ export function Hero() {
     >
       {/* Background gradient orb */}
       <motion.div
-        className="absolute top-1/2 left-1/2 w-[60vw] h-[60vw] rounded-full opacity-30 pointer-events-none"
+        className="absolute top-1/2 left-1/2 w-[60vw] h-[60vw] rounded-full opacity-35 pointer-events-none"
         style={{
           x: orbX,
           y: orbY,
-          background: 'radial-gradient(circle, rgba(200,255,50,0.4) 0%, rgba(108,77,255,0.2) 40%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(0,102,255,0.38) 0%, rgba(22,139,255,0.18) 40%, transparent 70%)',
           filter: 'blur(60px)',
         }}
       />
 
       {/* Grid lines */}
-      <div className="absolute inset-0 pointer-events-none opacity-[0.04]">
+      <div className="absolute inset-0 pointer-events-none opacity-[0.06]">
         <div className="h-full w-full" style={{
-          backgroundImage: 'linear-gradient(to right, #F5F3EE 1px, transparent 1px), linear-gradient(to bottom, #F5F3EE 1px, transparent 1px)',
+          backgroundImage: 'linear-gradient(to right, rgba(0,102,255,0.10) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,102,255,0.10) 1px, transparent 1px)',
           backgroundSize: '80px 80px',
         }} />
       </div>
@@ -116,7 +116,7 @@ export function Hero() {
             <MagneticButton strength={0.2} className="group">
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-2 bg-lime text-ink px-7 py-4 font-body font-medium text-sm uppercase tracking-wider rounded-none hover:bg-paper transition-colors duration-300"
+                    className="inline-flex items-center gap-2 bg-lime text-white px-7 py-4 font-body font-medium text-sm uppercase tracking-wider rounded-none hover:bg-[#168BFF] hover:shadow-[0_0_30px_rgba(0,102,255,0.35)] hover:-translate-y-0.5 transition-all duration-300"
                 data-cursor="OPEN"
                 data-cursor-variant="open"
               >
@@ -127,7 +127,7 @@ export function Hero() {
             <MagneticButton strength={0.2} className="group">
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-2 border border-paper/20 text-paper px-7 py-4 font-body font-medium text-sm uppercase tracking-wider hover:border-lime hover:text-lime transition-colors duration-300"
+                className="inline-flex items-center gap-2 border border-[#0066FF]/60 text-paper px-7 py-4 font-body font-medium text-sm uppercase tracking-wider hover:border-[#168BFF] hover:text-[#168BFF] hover:shadow-[0_0_24px_rgba(0,102,255,0.25)] hover:-translate-y-0.5 transition-all duration-300"
               >
                 Start a Project
               </Link>
@@ -135,7 +135,7 @@ export function Hero() {
             <MagneticButton strength={0.2}>
               <Link
                 to="/work"
-                className="inline-flex items-center gap-2 border border-paper/20 text-paper px-7 py-4 font-body font-medium text-sm uppercase tracking-wider hover:border-lime hover:text-lime transition-colors duration-300"
+                className="inline-flex items-center gap-2 border border-[#0066FF]/60 text-paper px-7 py-4 font-body font-medium text-sm uppercase tracking-wider hover:border-[#168BFF] hover:text-[#168BFF] hover:shadow-[0_0_24px_rgba(0,102,255,0.25)] hover:-translate-y-0.5 transition-all duration-300"
               >
                 Explore Our Work
                 <ArrowDown size={16} />
@@ -151,13 +151,13 @@ export function Hero() {
         style={{ rotateX: rotX, rotateY: rotY, transformPerspective: 800 }}
       >
         <div className="relative w-full h-full">
-          <div className="absolute inset-0 rounded-full border border-lime/30" />
-          <div className="absolute inset-4 rounded-full border border-lime/20" />
-          <div className="absolute inset-8 rounded-full border border-lime/10" />
+          <div className="absolute inset-0 rounded-full border border-[#0066FF]/40" />
+          <div className="absolute inset-4 rounded-full border border-[#168BFF]/30" />
+          <div className="absolute inset-8 rounded-full border border-[#0066FF]/15" />
           <motion.div
             className="absolute inset-0 rounded-full"
             style={{
-              background: 'radial-gradient(circle at 30% 30%, rgba(200,255,50,0.3), transparent 60%)',
+              background: 'radial-gradient(circle at 30% 30%, rgba(0,102,255,0.32), transparent 60%)',
             }}
             animate={reduced ? {} : { rotate: 360 }}
             transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
@@ -172,7 +172,7 @@ export function Hero() {
               style={{ originX: 0, originY: 0 }}
             >
               <div
-                className="w-2 h-2 rounded-full bg-lime"
+                className="w-2 h-2 rounded-full bg-[#168BFF]"
                 style={{ transform: `rotate(${deg}deg) translateX(80px)` }}
               />
             </motion.div>

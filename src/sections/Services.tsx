@@ -47,7 +47,7 @@ export function Services() {
                         <motion.h3
                           className="font-display text-3xl md:text-4xl font-bold tracking-tight transition-colors duration-300"
                           animate={{
-                            color: activeIndex === i ? '#C8FF32' : '#F5F3EE',
+                            color: activeIndex === i ? '#0066FF' : '#FFFFFF',
                             x: activeIndex === i ? 12 : 0,
                           }}
                           transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}

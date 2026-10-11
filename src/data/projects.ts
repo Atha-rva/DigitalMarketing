@@ -34,7 +34,7 @@ export const projects: Project[] = [
     client: 'Orbit Finance',
     services: ['Performance Marketing', 'Digital Strategy', 'Web Experiences'],
     image: 'https://images.pexels.com/photos/7691770/pexels-photo-7691770.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    color: '#C8FF32',
+    color: '#0066FF',
     challenge:
       'Orbit Finance needed to acquire high-intent users in a crowded fintech market with rising CACs and regulatory constraints on ad messaging.',
     strategy:
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     client: 'Luma Health',
     services: ['Creative & Branding', 'Social Media', 'Web Experiences'],
     image: 'https://images.pexels.com/photos/39731790/pexels-photo-39731790.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    color: '#6C4DFF',
+    color: '#168BFF',
     challenge:
       'Luma Health had strong clinical credibility but a brand that felt clinical. They needed to connect emotionally with patients while maintaining trust.',
     strategy:
@@ -112,7 +112,7 @@ export const projects: Project[] = [
     client: 'Nova Ecommerce',
     services: ['SEO', 'Performance Marketing', 'Digital Strategy'],
     image: 'https://images.pexels.com/photos/35560482/pexels-photo-35560482.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    color: '#C8FF32',
+    color: '#0066FF',
     challenge:
       'Nova was spending heavily on paid acquisition with diminishing returns. Organic search was an afterthought, and their catalog of 5,000+ products was barely indexed.',
     strategy:
@@ -151,7 +151,7 @@ export const projects: Project[] = [
     client: 'Vertex AI',
     services: ['Digital Strategy', 'Creative & Branding', 'Web Experiences'],
     image: 'https://images.pexels.com/photos/17483870/pexels-photo-17483870.png?auto=compress&cs=tinysrgb&h=650&w=940',
-    color: '#6C4DFF',
+    color: '#168BFF',
     challenge:
       'Vertex AI had powerful technology but struggled to communicate its value to non-technical buyers. The category was noisy, and differentiation was unclear.',
     strategy:
@@ -190,7 +190,7 @@ export const projects: Project[] = [
     client: 'Mono Studio',
     services: ['Web Experiences', 'Creative & Branding', 'SEO'],
     image: 'https://images.pexels.com/photos/7256197/pexels-photo-7256197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    color: '#C8FF32',
+    color: '#0066FF',
     challenge:
       'Mono Studio had a beautiful portfolio but their website was slow, hard to navigate, and failed to convert visitors into inquiries.',
     strategy:

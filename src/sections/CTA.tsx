@@ -28,10 +28,10 @@ export function CTA() {
         className="absolute inset-0 pointer-events-none"
       >
         <div
-          className="absolute top-1/2 left-1/2 w-[80vw] h-[80vw] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-20"
+          className="absolute top-1/2 left-1/2 w-[80vw] h-[80vw] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-22"
           style={{
             background:
-              'radial-gradient(circle, rgba(200,255,50,0.4) 0%, rgba(108,77,255,0.2) 40%, transparent 70%)',
+              'radial-gradient(circle, rgba(0,102,255,0.34) 0%, rgba(22,139,255,0.18) 40%, transparent 70%)',
             filter: 'blur(80px)',
           }}
         />
@@ -42,7 +42,7 @@ export function CTA() {
         Array.from({ length: 20 }).map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-1 h-1 rounded-full bg-lime/40"
+            className="absolute w-1 h-1 rounded-full bg-[#168BFF]/40"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -66,7 +66,7 @@ export function CTA() {
           transition={{ duration: 0.4 }}
           className="flex items-center justify-center gap-3 mb-8"
         >
-          <span className="w-2 h-2 rounded-full bg-lime animate-pulse" />
+          <span className="w-2 h-2 rounded-full bg-[#0066FF] animate-pulse" />
           <span className="text-xs font-body uppercase tracking-[0.25em] text-paper/60">
             Let's Build Together
           </span>
@@ -98,7 +98,7 @@ export function CTA() {
           <MagneticButton strength={0.2}>
             <Link
               to="/contact"
-              className="group inline-flex items-center gap-2 bg-lime text-ink px-8 py-4 font-body font-medium text-sm uppercase tracking-wider hover:bg-paper transition-colors duration-300"
+              className="group inline-flex items-center gap-2 bg-[#0066FF] text-white px-8 py-4 font-body font-medium text-sm uppercase tracking-wider hover:bg-[#168BFF] hover:shadow-[0_0_26px_rgba(0,102,255,0.32)] hover:-translate-y-0.5 transition-all duration-300"
               data-cursor="OPEN"
               data-cursor-variant="open"
             >
@@ -109,7 +109,7 @@ export function CTA() {
           <MagneticButton strength={0.2}>
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 border border-paper/20 text-paper px-8 py-4 font-body font-medium text-sm uppercase tracking-wider hover:border-lime hover:text-lime transition-colors duration-300"
+              className="inline-flex items-center gap-2 border border-[#0066FF]/60 text-paper px-8 py-4 font-body font-medium text-sm uppercase tracking-wider hover:border-[#168BFF] hover:text-[#168BFF] hover:shadow-[0_0_18px_rgba(0,102,255,0.22)] hover:-translate-y-0.5 transition-all duration-300"
             >
               Talk to Us
             </Link>

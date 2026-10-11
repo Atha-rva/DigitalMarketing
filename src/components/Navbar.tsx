@@ -44,11 +44,11 @@ export function Navbar() {
                 rotate: [0, -1.2, 0, 1.2, 0],
                 scale: [1, 1.04, 1, 1.03, 1],
                 filter: [
-                  'drop-shadow(0 0 10px rgba(108,77,255,0.16))',
-                  'drop-shadow(0 0 18px rgba(108,77,255,0.32))',
-                  'drop-shadow(0 0 10px rgba(108,77,255,0.16))',
-                  'drop-shadow(0 0 22px rgba(108,77,255,0.38))',
-                  'drop-shadow(0 0 10px rgba(108,77,255,0.16))',
+                  'drop-shadow(0 0 10px rgba(0,102,255,0.16))',
+                  'drop-shadow(0 0 18px rgba(22,139,255,0.32))',
+                  'drop-shadow(0 0 10px rgba(0,102,255,0.16))',
+                  'drop-shadow(0 0 22px rgba(0,102,255,0.38))',
+                  'drop-shadow(0 0 10px rgba(0,102,255,0.16))',
                 ],
               }}
               transition={{

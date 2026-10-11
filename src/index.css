@@ -5,21 +5,21 @@
 @tailwind utilities;
 
 :root {
-  --color-bg: #080808;
-  --color-text: #F5F3EE;
-  --color-accent: #C8FF32;
-  --color-muted: #8A8A82;
-  --color-border: #1F1F1F;
-  --color-secondary-accent: #6C4DFF;
+  --color-bg: #08090B;
+  --color-text: #FFFFFF;
+  --color-accent: #0066FF;
+  --color-muted: #A0A3AA;
+  --color-border: rgba(0, 102, 255, 0.12);
+  --color-secondary-accent: #168BFF;
 }
 
 :root[data-theme='light'] {
-  --color-bg: #F5F3EE;
-  --color-text: #080808;
-  --color-accent: #C8FF32;
-  --color-muted: #5A5A52;
-  --color-border: #E0DDD5;
-  --color-secondary-accent: #6C4DFF;
+  --color-bg: #08090B;
+  --color-text: #FFFFFF;
+  --color-accent: #0066FF;
+  --color-muted: #A0A3AA;
+  --color-border: rgba(0, 102, 255, 0.12);
+  --color-secondary-accent: #168BFF;
 }
 
 * {

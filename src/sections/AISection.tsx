@@ -19,12 +19,12 @@ export function AISection() {
   return (
     <section ref={ref} className="relative bg-paper text-ink py-24 md:py-32 overflow-hidden">
       {/* Animated background grid */}
-      <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
+      <div className="absolute inset-0 opacity-[0.04] pointer-events-none">
         <div
           className="h-full w-full"
           style={{
             backgroundImage:
-              'linear-gradient(to right, #080808 1px, transparent 1px), linear-gradient(to bottom, #080808 1px, transparent 1px)',
+              'linear-gradient(to right, rgba(0,102,255,0.10) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,102,255,0.10) 1px, transparent 1px)',
             backgroundSize: '60px 60px',
           }}
         />

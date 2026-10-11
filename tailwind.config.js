@@ -4,12 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#080808',
-        paper: '#F5F3EE',
-        lime: '#C8FF32',
-        violet: '#6C4DFF',
-        muted: '#8A8A82',
-        border: '#1F1F1F',
+        ink: '#08090B',
+        paper: '#FFFFFF',
+        lime: '#0066FF',
+        violet: '#168BFF',
+        muted: '#A0A3AA',
+        border: 'rgba(0, 102, 255, 0.12)',
       },
       fontFamily: {
         display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
