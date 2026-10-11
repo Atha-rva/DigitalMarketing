@@ -2,7 +2,7 @@ export const siteConfig = {
   brandName: 'The Crest',
   tagline: 'Where Brands Rise',
   positioning: 'Creative Content • Paid Advertising • Digital Growth',
-  email: '[Add email]',
+  email: 'dbadgujar141295@gmail.com',
   phone: '+91 79778 11729',
   location: 'Client-focused creative marketing partner',
   socialLinks: {
