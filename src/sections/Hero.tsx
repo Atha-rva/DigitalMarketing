@@ -71,7 +71,7 @@ export function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.6 }}
+          transition={{ delay: 0.25, duration: 0.6 }}
           className="flex items-center gap-3 mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-lime animate-pulse" />
