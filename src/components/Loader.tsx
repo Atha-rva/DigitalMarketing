@@ -50,7 +50,7 @@ export function Loader({ onComplete }: { onComplete: () => void }) {
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             className="font-display text-5xl md:text-7xl font-bold tracking-tighter text-paper"
           >
-            NEXORA
+            The Crest
           </motion.div>
           <motion.div
             className="mt-8 w-48 h-px bg-paper/20 overflow-hidden"

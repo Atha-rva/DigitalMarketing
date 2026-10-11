@@ -15,14 +15,14 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'NEXORA gave our brand a heartbeat. Patients tell us our experience feels different now.',
+      'The Crest gave our brand a heartbeat. Patients tell us our experience feels different now.',
     author: 'Dr. Priya Sharma',
     role: 'Founder',
     company: 'Luma Health',
   },
   {
     quote:
-      'Organic is now our largest revenue channel. NEXORA built a system that compounds.',
+      'Organic is now our largest revenue channel. The Crest built a system that compounds.',
     author: 'Karan Verma',
     role: 'CEO',
     company: 'Nova Ecommerce',

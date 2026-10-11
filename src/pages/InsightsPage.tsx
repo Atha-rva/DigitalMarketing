@@ -90,7 +90,7 @@ export function InsightsPage() {
                   <p className="mt-3 text-sm text-paper/50 font-body leading-relaxed">
                     {article.excerpt}
                   </p>
-                </a>
+                </Link>
               </motion.div>
             ))}
           </div>

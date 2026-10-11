@@ -14,20 +14,20 @@ export function AboutPage() {
 
   const values = [
     {
-      title: 'Strategy First',
-      desc: 'Every decision starts with understanding. We research, analyze, and strategize before we create.',
+      title: 'Understand the brand',
+      desc: 'We learn about the business, its identity, and what the brand needs to communicate clearly.',
     },
     {
-      title: 'Creative Courage',
-      desc: 'We push boundaries and challenge conventions. Safe work doesn\'t move markets.',
+      title: 'Create relevant content',
+      desc: 'We develop creative content aligned with the brand and designed for the right audience and platform.',
     },
     {
-      title: 'Data Driven',
-      desc: 'We measure what matters. Every campaign, every creative, every channel — accountable to outcomes.',
+      title: 'Reach the right audience',
+      desc: 'We connect brands with relevant audiences through focused content and strategic digital promotion.',
     },
     {
-      title: 'Technology Forward',
-      desc: 'We embrace emerging tech — AI, automation, 3D — to build experiences that others can\'t.',
+      title: 'Refine campaigns over time',
+      desc: 'We improve marketing efforts through regular review, performance observations, and iterative optimization.',
     },
   ];
 
@@ -46,10 +46,10 @@ export function AboutPage() {
             <span className="text-xs font-body uppercase tracking-[0.2em] text-muted">About Us</span>
           </motion.div>
           <h1 className="font-display text-[clamp(2.5rem,9vw,9rem)] font-bold tracking-tighter leading-[0.85] text-paper">
-            <AnimatedText text="WE BUILD BRANDS" />
+            <AnimatedText text="WHERE CREATIVITY" />
             <br />
             <span className="text-lime">
-              <AnimatedText text="THAT MOVE." delay={0.3} />
+              <AnimatedText text="MEETS BUSINESS GROWTH." delay={0.3} />
             </span>
           </h1>
         </div>

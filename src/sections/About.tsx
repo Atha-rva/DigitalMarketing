@@ -10,31 +10,31 @@ export function About() {
   const reduced = useReducedMotion();
 
   const capabilities = [
-    'Brand Strategy',
-    'Digital Marketing',
-    'Creative Direction',
-    'Web Development',
-    'SEO',
-    'Performance Media',
-    'Social Media',
-    'Content',
-    'Motion Design',
-    'AI & Automation',
+    'AI Video Creation',
+    'Video Editing',
+    'Video Shooting',
+    'Meta Ads',
+    'Profile Management',
+    'Creative Support',
+    'Content Strategy',
+    'Paid Campaigns',
+    'Brand Storytelling',
+    'Social Media Growth',
   ];
 
-  const industries = ['Technology', 'Fintech', 'Healthcare', 'E-Commerce', 'Startups', 'Real Estate'];
+  const industries = ['Local Businesses', 'Personal Brands', 'Startups', 'Product Brands', 'Service Businesses', 'Growing Companies'];
 
   return (
     <section ref={ref} className="relative bg-ink py-24 md:py-32">
       <div className="px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="lg:col-span-7">
-            <SectionHeading label="About NEXORA" title="" />
+            <SectionHeading label="About The Crest" title="" />
             <h2 className="font-display text-section md:text-display font-bold tracking-tighter leading-[0.9]">
-              <AnimatedText text="WE BUILD BRANDS" />
+              <AnimatedText text="ONE CREATIVE" />
               <br />
               <span className="text-lime">
-                <AnimatedText text="THAT MOVE." delay={0.3} />
+                <AnimatedText text="PARTNER. MULTIPLE SOLUTIONS." delay={0.3} />
               </span>
             </h2>
             <motion.p
@@ -43,8 +43,9 @@ export function About() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="mt-8 text-base md:text-lg text-paper/60 font-body leading-relaxed max-w-xl"
             >
-              We are a digital marketing and creative technology studio focused on building brands,
-              experiences and growth systems that create measurable impact.
+              The Crest is a digital marketing and creative services business helping brands strengthen
+              their online presence through compelling video content, social media management and
+              targeted advertising.
             </motion.p>
 
             <motion.div
@@ -116,9 +117,9 @@ export function About() {
                   Approach
                 </p>
                 <p className="text-base text-paper/60 font-body leading-relaxed">
-                  We believe great marketing is built at the intersection of strategy, creativity,
-                  and technology. Every engagement starts with understanding and ends with
-                  measurable impact.
+                  We start by understanding the brand, create content aligned with its identity,
+                  reach the right audience, and refine campaigns over time based on review and
+                  performance insights.
                 </p>
               </div>
             </motion.div>

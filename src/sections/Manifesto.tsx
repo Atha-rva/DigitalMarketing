@@ -10,7 +10,7 @@ export function Manifesto() {
     offset: ['start end', 'end start'],
   });
 
-  const words = ['WE', "DON'T", 'CHASE', 'ATTENTION.', 'WE', 'CREATE', 'IMPACT.'];
+  const words = ['USEFUL', 'CONTENT.', 'STRONGER', 'PRESENCE.', 'SMARTER', 'PROMOTION.'];
 
   return (
     <section
@@ -33,7 +33,7 @@ export function Manifesto() {
               reduced ? ['0px', '0px'] : ['8px', '0px']
             );
             const filter = useTransform(blur, (v) => `blur(${v})`);
-            const isAccent = word === 'IMPACT.' || word === 'ATTENTION.';
+            const isAccent = word === 'CONTENT.' || word === 'PRESENCE.' || word === 'PROMOTION.';
             return (
               <motion.span
                 key={i}

@@ -76,25 +76,22 @@ export function Hero() {
         >
           <span className="w-2 h-2 rounded-full bg-lime animate-pulse" />
           <span className="text-xs font-body uppercase tracking-[0.25em] text-paper/60">
-            Strategy × Creativity × Technology × Growth
+            Creative Content • Paid Advertising • Digital Growth
           </span>
         </motion.div>
 
         {/* Main headline */}
         <h1 className="font-display font-bold tracking-tighter leading-[0.85] text-paper text-[clamp(3rem,9vw,10rem)]">
           <div className="overflow-hidden">
-            <AnimatedText text="WE TURN" delay={0.3} />
+            <AnimatedText text="WHERE" delay={0.3} />
           </div>
           <div className="overflow-hidden">
             <span className="text-lime">
-              <AnimatedText text="ATTENTION" delay={0.45} />
+              <AnimatedText text="BRANDS" delay={0.45} />
             </span>
           </div>
           <div className="overflow-hidden">
-            <AnimatedText text="INTO" delay={0.6} />
-          </div>
-          <div className="overflow-hidden">
-            <AnimatedText text="GROWTH." delay={0.75} />
+            <AnimatedText text="RISE." delay={0.6} />
           </div>
         </h1>
 
@@ -106,8 +103,8 @@ export function Hero() {
             transition={{ delay: 1, duration: 0.6 }}
             className="text-base md:text-lg text-paper/60 max-w-md font-body leading-relaxed"
           >
-            We combine strategy, creativity and technology to build digital experiences that
-            move brands forward.
+            The Crest helps brands grow through creative content, social media presence and
+            focused paid advertising that connects them with the right audience.
           </motion.p>
 
           <motion.div
@@ -123,8 +120,16 @@ export function Hero() {
                 data-cursor="OPEN"
                 data-cursor-variant="open"
               >
-                Start a Project
+                Get in Touch
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+              </Link>
+            </MagneticButton>
+            <MagneticButton strength={0.2} className="group">
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 border border-paper/20 text-paper px-7 py-4 font-body font-medium text-sm uppercase tracking-wider hover:border-lime hover:text-lime transition-colors duration-300"
+              >
+                Start a Project
               </Link>
             </MagneticButton>
             <MagneticButton strength={0.2}>

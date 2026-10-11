@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Instagram, Linkedin, Youtube, ArrowUp } from 'lucide-react';
+import { Instagram, Youtube, ArrowUp } from 'lucide-react';
 import { siteConfig } from '@/config/siteConfig';
 import { useReducedMotion } from '@/hooks/useReducedMotion';
 
@@ -12,7 +12,6 @@ export function Footer() {
 
   const socials = [
     { icon: Instagram, href: siteConfig.socialLinks.instagram, label: 'Instagram' },
-    { icon: Linkedin, href: siteConfig.socialLinks.linkedin, label: 'LinkedIn' },
     { icon: Youtube, href: siteConfig.socialLinks.youtube, label: 'YouTube' },
   ];
 

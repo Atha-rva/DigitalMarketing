@@ -51,7 +51,7 @@ export const projects: Project[] = [
       { label: 'ROAS', value: '4.8x' },
     ],
     quote: {
-      text: 'NEXORA didn\'t just improve our marketing. They changed how we think about growth.',
+      text: 'The Crest didn\'t just improve our marketing. They changed how we think about growth.',
       author: 'Arjun Mehta',
       role: 'CMO, Orbit Finance',
     },
@@ -129,7 +129,7 @@ export const projects: Project[] = [
       { label: 'Keyword Rankings', value: '+1,200' },
     ],
     quote: {
-      text: 'Organic is now our largest revenue channel. NEXORA built a system that compounds.',
+      text: 'Organic is now our largest revenue channel. The Crest built a system that compounds.',
       author: 'Karan Verma',
       role: 'CEO, Nova Ecommerce',
     },
