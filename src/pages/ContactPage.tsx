@@ -61,7 +61,7 @@ export function ContactPage() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={`mailto:${siteConfig.email}`}
+                href={`mailto:${siteConfig.email}?subject=${encodeURIComponent('Project Inquiry')}`}
                 className="group inline-flex items-center justify-center gap-2 bg-[#0066FF] text-white px-7 py-4 font-body font-medium text-sm uppercase tracking-wider hover:bg-[#168BFF] hover:shadow-[0_0_26px_rgba(0,102,255,0.32)] hover:-translate-y-0.5 transition-all duration-300"
               >
                 Get in Touch
